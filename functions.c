@@ -9,16 +9,17 @@ void happy_bithday(char x[], int y)
 
 }
 
-void multiply(double a, double b)
+double square(double b)
 {
 
-double c = a * b;
-printf("Your multiplayed numbers are: %lf\n", c);
+    double result = b * b;
+    return result;
 
 }
 
 void divde(double a, double b)
 {
+
     double division = a / b;
     printf("Your divided numbers are: %lf\n", division);
     
@@ -26,12 +27,15 @@ void divde(double a, double b)
 
 int main() 
 {
+
     char name[] = "Dawid";
     int age = 28;
 
     happy_bithday(name, age);
-    multiply(192.88888888888, 48.345);
+    double b = square(3.14);
+    printf("%lf\n", b);
     divde(289, 2345);
 
     return 0;
+    
 }
