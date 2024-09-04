@@ -21,9 +21,8 @@ int main()
         {
             printf("Not ten yet!\n");
         }
-        
     }
-    for (double i = 1.001; i <= 2.000; i += 0.003) 
+    for (float i = 1.001; i <= 2.000; i += 0.003) 
     {
         printf("%.3f\n", i);
     }
