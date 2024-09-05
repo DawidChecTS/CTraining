@@ -23,7 +23,7 @@ int main() {
             printf("%c", symbols);
         }
         printf("\n");
-
     }
+    
     return 0;
 }
